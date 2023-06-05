@@ -52,7 +52,7 @@
  /*Hero productos*/
  
  .card {
-   width: 18rem;
+   width: 16rem;
    height: 200px;
    margin: 3rem;
    justify-items: center;
@@ -68,7 +68,27 @@
    font-weight: bold;
    text-align: center;
  }
+
+ .nav-link {
+  padding: 0rem;
+  margin: 1rem;
+  font-size: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+ }
  
+ .markeds {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #e3e3e3;
+  font-size: 14px;
+  color: #e3e3e3;
+  text-align: center;
+ }
  
  
  

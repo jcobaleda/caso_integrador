@@ -9,7 +9,7 @@
  
  /*barra de navegacion*/
  .barra .navbar {
-   padding: 2rem;
+   padding: 3rem;
    background-color: white;
    font-size: 20px;
  }
@@ -52,10 +52,10 @@
  
  /*Hero productos*/
  
- .card {
+ .carta .card {
    width: 16rem;
    height: 200px;
-   margin: 3rem;
+   margin: 1rem;
    justify-items: center;
    align-items: center;
    text-align: center;
@@ -64,32 +64,21 @@
    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
  }
  
- .card-title {
-   font-size: 1rem;
-   font-weight: bold;
-   text-align: center;
- }
-
- .nav-link {
-  padding: 0rem;
-  margin: 1rem;
+ .carta .card-title {
+  font-size: 1.5rem;
+  }
+ 
+ .carta .card-text {
   font-size: 1rem;
-  font-size: 1rem;
-  font-weight: bold;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
  }
  
- .markeds {
+ .carta .productos {
+  padding: 1rem;
   justify-items: center;
   align-items: center;
-  text-align: center;
-  border: 1px solid #e3e3e3;
-  font-size: 14px;
-  color: #e3e3e3;
-  text-align: center;
- }
+  }
+
+
  
  
  

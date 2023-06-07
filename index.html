@@ -1,2 +1,221 @@
-<h1>hola</h1>
-<h2>Hola</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--metadatos-->
+  <meta charset="UTF-8">
+  <meta name="author" content="drvpsp">
+  <meta name="description" content="Portafolio de drvsp">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta name="viwport"content="wdiht=device-widh, tinitial-scale=1">
+  <title>Marked place poli</title>
+	<!--Links booststrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<!--link css-->
+	<link rel="stylesheet" href="casointegrado.css">
+</head>
+	<body class="body">
+		
+    <!--Barra de navegacion-->
+    <section class="barra">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse col-12 col-md-4" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img class="icono-pagina" src="imagenescasointegrado/icono-tienda.jpg" width="100" alt="logo de la pagina Web">  
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" aria-current="page" 
+							href="#">Carrera</a>
+							  <ul class="dropdown-menu">
+								  <li><a class="dropdown-item" href="#Ingieneria de Sistemas">Ingieneria de Sistemas</a></li>
+								  <li><a class="dropdown-item" href="#Gastronomia Marked">Gatronomia</a></li>
+								  <li><a class="dropdown-item" href="#Ingieneria Ambiental">Ingieneria Ambienteal</a></li>
+							  </ul>
+						  </il>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonios">Historial</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#contacto">Iniciar sesion</a>
+							  <ul class="dropdown-menu">
+								  <form action="#">
+									  <label for="email" class="form-label">Correo electronico</label>
+									  <input type="email" class="form-control" name="email">
+									  <label for="password" class="form-label">Contraseña</label>
+									  <input type="password" class="form-control" name="password">
+									  <input type="checkbox" name="connedcted" class="form-check-input" id="">
+									  <label for="connedcted" class="form-check-label">Mantener sesion iniciada</label>
+									  <button class="btn btn-primary" type="submit">Iniciar sesion</button>
+								  </form>
+							  </ul>
+						  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>  
+    <section class="buscador">
+		  <nav class="navbar navbar-expand-md">
+			  <div class="container-fluid">
+				  <form class="d-flex" role="search">
+					  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					  <button class="btn btn-outline-success" type="submit">Search</button>
+				  </form>
+			  </div>
+		  </nav>
+    </section>
+    <!--Seccion hero carrusel-->
+
+    <section class="carrusel col-12 col-md-12">
+      <div id="productos-carrusel" class="carousel carousel-dark carousel-expand-md slide">
+        <div class="carousel-inner col-12 col-md-4">
+          <div class="carousel-item active">
+            <img class="imagen-carousel" src="imagenescasointegrado/carrusel1.jpg" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img class="imagen-carousel" src="imagenescasointegrado/carrusel2.jpg" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img class="imagen-carousel" src="imagenescasointegrado/carrusel3.jpg"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img class="imagen-carousel" src="imagenescasointegrado/carrusel4.jpg"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img class="imagen-carousel" src="imagenescasointegrado/carrusel5.jpg"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img class="imagen-carousel" src="imagenescasointegrado/carrusel6.jpg"  alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#productos-carrusel" data-bs-slide="next">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productos-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!--seccion hero productos-->
+    <div class="row">
+      <div class="col">
+        <div class="card col-12 col-md-4">
+          <img src="imagenescasointegrado/producto1.gif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <ul class="navbar-nav ">
+              <li class="nav-item dropdown">
+                <a class="productos nav-link active dropdown-toggle" data-bs-toggle="dropdown" aria-current="page" 
+                href="#Gastronomia Marked">Gastronomia Marked</a>
+                <ul class="markeds dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Enologia</a></li>
+                  <li><a class="dropdown-item" href="#">Barismo</a></li>
+                  <li><a class="dropdown-item" href="#">Cocina nacional</a></li>
+                  <li><a class="dropdown-item" href="#">Cocina internacional</a></li>
+                </ul>
+              </il>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card col-5">
+          <img src="imagenescasointegrado/productos2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item dropdown">
+                <a class="productos nav-link active dropdown-toggle" data-bs-toggle="dropdown" aria-current="page" 
+                href="#">Ingieneria de Sistemas</a>
+                <ul class="markeds dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Curso html</a></li>
+                  <li><a class="dropdown-item" href="#">Curso Css</a></li>
+                  <li><a class="dropdown-item" href="#">Curso de framworks</a></li>
+                </ul>
+              </il>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card col-5">
+          <img src="imagenescasointegrado/producto3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item dropdown">
+                <a class="productos nav-link active dropdown-toggle" data-bs-toggle="dropdown" aria-current="page" 
+                href="#">Carrera</a>
+                <ul class="markeds dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> proteccion personal</a></li>
+                  <li><a class="dropdown-item" href="#">Equipos medicion ambiental</a></li>
+                  <li><a class="dropdown-item" href="#">Articulos de laboratorio</a></li>
+                </ul>
+              </il>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card col-5">
+          <img src="imagenescasointegrado/producto4.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item dropdown">
+                <a class="productos nav-link active dropdown-toggle" data-bs-toggle="dropdown" aria-current="page" 
+                href="#">Carrera</a>
+                <ul class="markeds dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Pague 1 lleve 2</a></li>
+                  <li><a class="dropdown-item" href="#">50% de descuetno</a></li>
+                </ul>
+              </il>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+
+    <!--footer-->
+
+		<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+			
+			<img class="footer-logo" src="imagenescasointegrado/LOGO-FOOTER.svg" alt="logo del proyecto">
+      <p class="footer-texto text-center">Los mejores producctos del mercado.<br>Servicio 24 horas.
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Caso de estudio integrado &#169;</div>
+
+		</footer>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	</body>
+</html>

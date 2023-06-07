@@ -1,0 +1,157 @@
+/*body*/
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #666;
+ }
+ 
+ 
+ /*barra de navegacion*/
+ .barra .navbar {
+   padding: 2rem;
+   background-color: white;
+   font-size: 20px;
+ }
+ 
+ .barra .navbar-collapse {
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .barra .dropdown-menu {
+   width: 200px!important;
+   background-color: #f5f5f5;
+   border: 1px solid #e3e3e3;
+   border-radius: 5px;
+   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+ }
+ 
+ .buscador .container-fluid {
+   padding: 1rem;
+ }
+ 
+ /* seccion hero */
+ 
+ .carrusel .imagen-carousel {
+   width: 100%;
+   align-items: center;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+ 
+ }
+ 
+ .carrusel .carousel-item img {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+   
+   }
+ 
+ 
+ /*Hero productos*/
+ 
+ .card {
+   width: 16rem;
+   height: 200px;
+   margin: 3rem;
+   justify-items: center;
+   align-items: center;
+   text-align: center;
+   border: 1px solid #e3e3e3;
+   border-radius: 5px;
+   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+ }
+ 
+ .card-title {
+   font-size: 1rem;
+   font-weight: bold;
+   text-align: center;
+ }
+
+ .nav-link {
+  padding: 0rem;
+  margin: 1rem;
+  font-size: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+ }
+ 
+ .markeds {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #e3e3e3;
+  font-size: 14px;
+  color: #e3e3e3;
+  text-align: center;
+ }
+ 
+ 
+ 
+ 
+ /*estilos generales*/
+ 
+ .seccion-oscura {
+   color: white;
+   background-color: black;
+ }
+ 
+ /*footer*/
+ 
+ footer {
+   min-height: 500px;
+   background-color: #f5f5f5;
+   padding: 2rem;
+ }
+ 
+ .footer-logo {
+   height: 80px;
+   width: 80px;
+   margin: 10px;
+ }
+ 
+ .footer-texto {
+   font-size: 1.5rem;
+   padding: 20px;
+   margin-bottom: 30px;
+   font-family: 'Quicksand', sans-serif;
+ }
+ 
+ .iconos-redes-sociales a{
+   width: 50px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2px;
+   margin: 10px;
+   border: 2px solid white;
+   border-radius: 50%;
+   transition: all 0.2s ease-in;
+ }
+ 
+ .iconos-redes-sociales i {
+   color: white;
+   font-size: 1.5rem;
+   transition: all 0.2s ease-in;
+ }
+ 
+ .iconos-redes-sociales a:hover {
+ background-color: white;
+ border: 2px solid rgb(13, 110, 253);
+ }
+ 
+ .iconos-redes-sociales a:hover i {
+   color: black;
+ }
+ 
+ .derechos-de-autor {
+   font-size: 15px;
+   color: #aeaeae;
+   padding: 20px;
+ }

@@ -24,8 +24,10 @@
 }
 
 .carousel-item {
-	transition: transform 2s ease, opacity .5s ease-out;
+	transition: transform all 6s ease, opacity .5s ease-out;
 }
+
+
 
 /*footer*/
  

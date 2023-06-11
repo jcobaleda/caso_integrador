@@ -41,9 +41,9 @@
 /*footer*/
  
 footer {
-    min-height: 500px;
+    min-height: 200px;
     background-color:gray;
-    padding: 1rem;
+    padding: 0rem;
   }
   
   .footer-logo {

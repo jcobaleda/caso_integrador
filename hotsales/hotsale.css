@@ -1,12 +1,18 @@
 body {
-  background: url("imageneshotsales/fondobody.jpg");
+  background: url("imageneshotsales/fondobody1.jpg");
 }
 
 
 /*header and card*/
 
+.container .card{
+  background: transparent;
+  
+  
+}
+
 .container .card-header{
-	background: url("imageneshotsales/fondobody.jpg");
+	
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
@@ -16,11 +22,11 @@ body {
 	font-weight: bold;
 	border: 1px gray;
 	box-shadow: 0 2px 2px 0 rgba(85, 84, 84, 0.14),0 3px 1px -2px rgba(14, 8, 8, 0.2),0 1px 5px 0 rgba(0,0,0,.12);
+  font-family: 'Noto Serif', serif;
 }
 
 .container .card-body {
-	background-color: white;
-  background: url(imageneshotsales/fondobody.jpg);
+	background-color: transparent;
 	color: black;	
 	padding: 10px;
 	border: 1px transparent;
@@ -36,9 +42,19 @@ body {
   overflow: hidden;
   display: flex;
   box-shadow: 0 2px 2px 0 rgba(85, 84, 84, 0.14),0 3px 1px -2px rgba(14, 8, 8, 0.2),0 1px 5px 0 rgba(0,0,0,.12);;
+  background-color: lightskyblue;
 }
 
+.card-title{
+  font-weight: bold;
+  font-family: 'Noto Serif', serif;
+  color: aliceblue;
+}
 
+.card-text{
+  font-weight: bold;
+  color: aliceblue;
+}
 
 
 
@@ -59,9 +75,11 @@ footer {
   
   .footer-texto {
     font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: bold;
     padding: 20px;
     margin-bottom: 30px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Serif', serif;
   }
   
   .iconos-redes-sociales a{

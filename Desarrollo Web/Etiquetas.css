@@ -1,0 +1,142 @@
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+h1 { 
+	position: relative; 
+	float: left;
+	background: white;
+	color: black;
+	font-size: 6em;
+}
+
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: white;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+.Titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.caja {
+    background: linear-gradient(to bottom, white, aquamarine);
+}
+
+.Imagenes {
+    display: flex;
+    width: 320px;
+    height: 220px;
+}
+
+.Imagenes img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.Imagenes img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 35px;
+}
+
+aside {
+    width: 350px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 20px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border: solid 1px var(--gray-color);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px;
+}
+ aside h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    background-color: var(--secundary-color);
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: solid 1px var(--secundary-color);
+ }
+
+ .widget ul {
+    list-style-type: circle;
+    padding-left: 20px;
+ }
+
+ .widget ul li {
+    margin: 15px 0;
+ }
+
+ .Texto {
+    text-align: center justify;
+    background-color: white;
+ }
+
+ .Texto p {
+    margin: 0;
+    color: black;
+    font-style: arial;
+ }
+
+ .Video {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    width: 480px;
+    margin-top: 40px;
+    padding: 10px;
+ }
+
+ .card {
+    justify-content: left;
+ }
+ 
+ .Frase {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+ }
+ 
+.TextoH {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+ footer {
+    background: linear-gradient(to top, black 0%, black 50%, aquamarine);
+    
+ }
+
